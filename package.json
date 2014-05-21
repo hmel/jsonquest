@@ -3,12 +3,15 @@
   "description": "A simple HTTP(S) client for JSON APIs",
   "version": "0.3.0",
   "author": "Maciej Małecki <me@mmalecki.com>",
+  "contributors": [
+    "Josh Harvey <joshmh@gmail.com>"
+  ],
   "main": "./lib/jsonquest.js",
   "devDependencies": {
-    "assert-called": "0.1.x"
+    "mocha": "~1.19.0"
   },
   "scripts": {
-    "test": "node test/jsonquest-test.js"
+    "test": "node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
