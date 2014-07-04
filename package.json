@@ -16,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mmalecki/jsonquest.git"
+  },
+  "dependencies": {
+    "xml2js": "~0.4.4"
   }
 }
